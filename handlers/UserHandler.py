@@ -8,6 +8,6 @@ class UserHandler(AbstractHandler):
         if not user.username:
             print("Username doesn't exist.")
             return False
-        print("Username does exist, please continue with rol valifation.")
+        print("Username does exist, please continue with rol validation.")
         return super().handle(user)
     
